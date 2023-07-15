@@ -11,6 +11,9 @@
 *.xlsx
 *.xls
 
+# Avoid committing secrets
+*secret*
+
 # Exceptions- use ! to include files that would otherwise be ignored
 !publication_template.xlsx
 
