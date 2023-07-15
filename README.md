@@ -1,38 +1,24 @@
-# RAP repository template
+# NHS Service Checker
 
-:exclamation: Warning: this repository may contain references internal to NHS England that cannot be accessed publicly
+:exclamation: Warning: this repo is a personal project
 
-> Describe your project in 1-3 sentences.
+This repo intends to highlight where NHS services, such as GPs and Dentists, do not have a working website link on NHS.UK, and additionally, where they do not display their CQC status - hopefully for the benefit of service users.
 
-A template Python repository that can be adapted for RAP projects.
-
-_A **repository** is something that contains all of your project's files and and each file's revision history._
-
-## Link to publication
-
-> Include a link to where your publication is published.
+It will use two main data sources:
+- the [NHS.UK API](https://developer.api.nhs.uk/)
+- the [CQC syndication API](https://anypoint.mulesoft.com/exchange/portals/care-quality-commission-5/4d36bd23-127d-4acf-8903-ba292ea615d4/cqc-syndication-1/minor/1.0/pages/home/) 
 
 ## Contact
-**This repository is maintained by [NHS England Data Science Team](datascience@nhs.net)**.
-> _To contact us raise an issue on Github or via email._
-> 
-> See our (and our colleagues') other work here: [NHS England Analytical Services](https://github.com/NHSDigital/data-analytics-services)
+**This repository is maintained by me.
+> Any feedback? Raise an issue.
 
 ## Description
 
-> Provide more detailed overview of the project, including (if relevant) a description of the publication process.
-
-This repository is intended to function as a template for Python RAP projects at NHS England.
-
-You can learn more about project structure and why it's important in the ['project structure and packaging guide'](https://nhsdigital.github.io/rap-community-of-practice/training_resources/python/project-structure-and-packaging/) of the RAP community of practice Github repo, a central source of RAP knowledge.
-
-_You can edit any part of this document. The licence section **must be edited** before publishing this repository publicly. For more information about publishing your project please see the ['how to publish your code in the open' guide](https://nhsdigital.github.io/rap-community-of-practice/implementing_RAP/how-to-publish-your-code-in-the-open/)._
+> ToDo
 
 ## Prerequisites
 
-> If applicable, list the items a user needs to be able to use your repository, such as a certain version of a programming language. It can be useful to link to documentation on how to install these items.
-
-* Python (> 3.0)
+> ToDo
 
 ## Getting Started
 
@@ -187,13 +173,5 @@ There are several workaround to use this template for your project on GitLab. On
 
 Unless stated otherwise, the codebase is released under the MIT License. This covers both the codebase and any sample code in the documentation.
 
-Any HTML or Markdown documentation is [© Crown copyright](https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/) and available under the terms of the [Open Government 3.0 licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
-
 ## Acknowledgements
-- [Connor Quinn](https://github.com/connor1q)
-- [Sam Hollings](https://github.com/SamHollings)
-- [Maakhe Ndhlela](https://github.com/maakhe)
-- [Harriet Sands](https://github.com/harrietrs)
-- [Xiyao Zhuang](https://github.com/xiyaozhuang)
-- [Helen Richardson](https://github.com/helrich)
-- [The RAP team](https://github.com/NHSDigital/rap-community-of-practice)!
+- Kenneth Quan - whose own work inspired me to make this
