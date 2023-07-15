@@ -79,7 +79,7 @@ def main():
             print("Error occurred. Status code:", response.status_code)
             return []
 
-    # Call the function to retrieve the list of GP practices
+    # Call the function to retrieve the nhs service data
     df_nhs_service_details = get_nhs_service_details(NHS_API_SUBSCRIPTION_KEY)
 
     # Print the retrieved GP practices
@@ -91,7 +91,13 @@ def main():
         break
 
     
-
+    def get_cqc_data(org_id):
+        """"""
+        #ToDo: Need to figure how to link the CQC output to the Organisation code of the org - I can't think of how to do this besides just pulling ALL of the 
+        #       CQC data and then getting the org codes for each org using the locations/{location_id} API... but it seems overkill. Perhaps there is some query parameter..
+        url = f'https://api.cqc.org.uk/public/v1/locations'
+        req = requests.get(url)
+        return (req.json())
 
     # # sets up database connection
     # conn = make_database_connection(server, database)
